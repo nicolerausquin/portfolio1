@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;600;700&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+#contacto, #home{
+    background-image: url("../images/fondo-contacto.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#contacto footer{
+    color: white;
+}
+#contacto footer:hover{
+    color: #370a6d;
+}
+#proyectos{
+    background-image: url("../images/fondo-proyectos.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#proyectos h3{
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+}
+#proyectos img{
+    height: 200px;
+}
+#proyectos footer a{
+    color: #E20000;
+    
+}
+#proyectos footer a:hover{
+    color: #370a6d;
+}
+#proyectos footer{
+    color: #E20000;
+}
+#proyectos p{
+    height: 150px;
+    font-size: 14px;
+}
+
+h1{
+    color:#E20000;
+    font-size: 36px;
+}
+p{
+    color:#6a6a6a;;
+    font-size: 16px;
+}
+.form-control{
+    border-radius: 10px;
+}
+nav .active{
+    border: 1px solid #E20000;
+    border-radius: 20px;
+}
+nav .nav-link{
+    color:#282828;
+}
+nav .fa-bars{
+    color: #E20000;
+}
+.navbar-toggler{
+    border-color: #E20000 solid 1px;
+}
+.btn-blanco{
+    color: #370a6d;
+    background-color: white;
+    border: 0px;
+    border-radius: 20px;
+}
+.btn-blanco:hover{
+    color:white;
+    background-color: #370a6d;  
+}
+.btn-rojo{
+    background-color: #E20000;
+    color: white;
+    font-weight: 100;
+    border-radius: 20px;
+}
+.btn-rojo:hover{
+    color:white;
+    background-color: #370a6d;  
+}
+.btn-link{
+    color: #E20000;
+    text-decoration:none ;
+}
+.btn-link:hover{
+    color: #370a6d;
+}
+.form-control{
+    border-radius: 16px;
+}
+footer{
+    font-weight: 100;
+    color: white;
+}
+footer a{
+    color: white;
+}
+footer .fa-github{
+    font-size: 35px;
+    color: #ff4a49;
+}
+footer .fa-linkedin-in{
+    color: #ff4a49;
+    background-color: white;
+    font-size: 33px;
+    border: 0px;
+    height: 36px;
+    width: 34px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+}
+.whatsapp{
+    position: fixed;
+    bottom: 0px;
+    right: 80px;
+    font-size: 35px;
+    background: #370a6d;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+    width: 60px;
+    color: white;
+    text-align: center;
+    padding: 13px;
+}
+#home img{
+    width: 250px;
+}
+#home img:hover{
+    width: 260px;
+}
+#home .div-cohete{
+    height: 410px; /*para darle una altura al texto y fijarlo*/
+}
+#home .cohete{
+    height: 400px;
+}
+#home .cohete:hover{
+    height: 410px;
+}
+#home .input-home p{
+    color: #E20000;
+    border: 1px solid #E20000;
+    color: white;
+    font-size: 17px;
+    border: 1px solid white;
+    border-radius: 50px;
+    font-weight: 600;
+} 
+
+@media (max-width: 750px){  /*para dispositivos moviles. la ubicacion siempre es al final de la hoja de estilos*/
+#contacto {
+    background-image: url(../images/fondo-proyectos.png);
+}
+}
+@media (max-width: 750px){
+#proyectos .whatsapp{
+ right: 10px;
+ 
+}
+@media(max-width:750px) {
+#home .whatsapp{
+    right: 10px;
+}
+}
+.input-home p{
+    color: #E20000 !important;
+    border: 1px solid #E20000 !important;
+    width: auto !important;
+}
+#home .fa-github .fa-linkedin-in{
+    color: #E20000;
+}
+#home .depc .mailto{
+    color: #E20000;
+    
+}
+}
